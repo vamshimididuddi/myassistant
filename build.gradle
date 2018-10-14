@@ -25,9 +25,11 @@ repositories {
 
 
 dependencies {
-	//implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+	compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
+	compile group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+	implementation('org.springframework.boot:spring-boot-starter-data-jpa')
 	//implementation('org.springframework.boot:spring-boot-starter-data-mongodb')
 	implementation('org.springframework.boot:spring-boot-starter-web')
-	//runtimeOnly('org.postgresql:postgresql')
+	runtimeOnly('org.postgresql:postgresql')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
