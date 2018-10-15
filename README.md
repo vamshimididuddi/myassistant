@@ -1,1 +1,1 @@
-creating an assistant for self
+creating an assistant for managing daily activities
